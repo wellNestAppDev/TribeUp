@@ -21,10 +21,14 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #fff;
+    transition: color 0.3s;
+}
+nav ul li a:hover {
+    color: #ffe082; /* Lightening on hover */
 }
 .hero {
-    background-color: #ffcc80;
-    color: #333;
+    background: url('path/to/your/image.jpg') no-repeat center center/cover; /* Add a hero image */
+    color: #fff;
     padding: 60px 20px;
     text-align: center;
 }
@@ -42,6 +46,10 @@ h1, h2 {
     padding: 20px;
     margin: 15px 0;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.feature-card:hover, .testimonial-card:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
 }
 footer {
     background-color: #ff6f61;
@@ -56,6 +64,7 @@ button {
     border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 button:hover {
     background-color: #b71c1c;
