@@ -1,2 +1,3 @@
 # TribeUp
-TribeUp: Your Connection to Emotional Well-Being
+TribeUp: Evil Hunter Tycoon gear tracking app
+
